@@ -1,7 +1,8 @@
 function createEventService({ sheetsClient }) {
   return {
     sheetsClient,
-    // Future home for event records and templates.
+    getOpenEvent: sheetsClient.getOpenEvent,
+    getTemplate: sheetsClient.getTemplate,
   };
 }
 
