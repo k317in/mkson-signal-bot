@@ -1,0 +1,24 @@
+{
+  "name": "mkson-signal-bot",
+  "version": "0.1.0",
+  "description": "Signal-based event signup and payment tracking bot for MKSON Basketball.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js && node --check src/app.js && node --check src/config/env.js && node --check src/services/signalClient.js && node --check src/services/googleSheetsClient.js && node --check src/services/eventService.js && node --check src/services/signupService.js && node --check src/commands/index.js"
+  },
+  "keywords": [
+    "signal",
+    "bot",
+    "google-sheets",
+    "basketball"
+  ],
+  "author": "MKSON Basketball",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  }
+}
