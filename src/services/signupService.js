@@ -1,7 +1,9 @@
 function createSignupService({ sheetsClient }) {
   return {
     sheetsClient,
-    // Future home for signup and payment records.
+    createSignup: sheetsClient.createSignup,
+    markPaid: sheetsClient.markPaid,
+    getSignupList: sheetsClient.getSignupList,
   };
 }
 
