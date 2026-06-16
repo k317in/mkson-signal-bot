@@ -39,3 +39,31 @@ Issue #1 completed.
 ### Next Step
 
 Setup Google Sheets service.
+
+Issue #2 Completed
+
+Implemented:
+
+- Google Sheets Client
+
+- Event Service
+
+- Signup Service
+
+- Local Examples
+
+- Unit Tests
+
+Validation:
+
+- npm run check
+
+- npm test
+
+- npm run sheets:example
+
+- npm start
+
+Status:
+
+Ready for Command Parser implementation.
